@@ -15,7 +15,7 @@ namespace Projeto_Entrevista
         private static SQLiteConnection ConexaoBanco()
         {
             //Abrindo conexao com o banco
-            conexao = new SQLiteConnection("Data Source=C:\\Users\\patrick.silva\\Documents\\Cursos\\C#\\Programas\\Aulas parte2\\Projeto_Entrevista\\banco\\bd_passagem.db");
+            conexao = new SQLiteConnection("Data Source=C:\\bd_passagem.db");
             conexao.Open();
 
             return conexao;
