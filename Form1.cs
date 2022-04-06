@@ -27,7 +27,7 @@ namespace Projeto_Entrevista
         {
             //Abrir o openfiledialog
             openFileDialog1.Title = "Abrir Arquivo";
-            openFileDialog1.InitialDirectory = @"C:\Users\patrick.silva\Documents\Jsons";
+            openFileDialog1.InitialDirectory = @"C:\Jsons";
             openFileDialog1.Filter = "json files (*.json) | *json| All files (*.*)|*.*";
 
             DialogResult dr = openFileDialog1.ShowDialog();
